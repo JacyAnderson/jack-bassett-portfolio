@@ -1,0 +1,59 @@
+/*
+* Main.scss
+*/
+
+// Utility Styles
+.center {
+	margin: 0 auto !important;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+// General Styles
+body, html {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.bg { 
+  background:
+  	// Tint over image
+  	-webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    // Main Image
+    url("../images/jack.jpg");
+  background:
+  	// Tint over image
+  	-o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    // Main Image
+    url("../images/jack.jpg");
+  background:
+  	// Tint over image
+  	linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    // Main Image
+    url("../images/jack.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: 68% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-nav {
+	float: right;
+}
+
+.navbar-brand {
+	color: white;
+	font-size: 42px;
+	font-weight: 800;
+	margin-top: 20px !important;
+}
+
+.dark-backing {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0 6px 0 6px;
+}
